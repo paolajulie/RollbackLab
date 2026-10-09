@@ -1,0 +1,9 @@
+﻿Cenario,Folha,Tipo,TempoSimuladoFormatado,TempoSimuladoSegundos,ReferenciaDocumento,Divergencia,Composicao
+"A","A","Automático","04:00 (4,0 min)",240,"≈ 4,0 min","Nenhuma","Decisao (30s) + EsperaFlag (3m) + ConferenciaFlag (30s)"
+"B","B","Automático","08:00 (8,0 min)",480,"≈ 8,0 min","Nenhuma","Decisao (30s) + Rollback (2m) + SmokeTest (30s) + Estabilizacao (5m)"
+"C","C","Automático","08:30 (8,5 min)",510,"≈ 8,5 min","Nenhuma","Decisao (30s) + ValidacaoPedidos (30s) + Rollback (2m) + SmokeTest (30s) + Estabilizacao (5m)"
+"D","D","Humano","01:00 (1,0 min)",60,"≈ 1,0 min","Nenhuma","Decisao (30s) + Notificacao (30s)"
+"E","E","Humano","01:00 (1,0 min)",60,"≈ 1,0 min","Nenhuma","Decisao (30s) + Notificacao (30s)"
+"F","F","Humano","01:00 (1,0 min)",60,"≈ 1,0 min","Nenhuma","Decisao (30s) + Notificacao (30s)"
+"G","G","Humano","08:30 (8,5 min)",510,"≈ 8,0 min","+0,5 min (esperada)","Decisao (30s) + Rollback (2m) + SmokeTest (30s) + Estabilizacao (5m) + Notificacao (30s)"
+"H","H","Humano","01:00 (1,0 min)",60,"≈ 1,0 min","Nenhuma","Decisao (30s) + Notificacao (30s)"
